@@ -16,13 +16,13 @@ public class Kitchen {
         oven.setName(scanner.nextLine());
         System.out.println(oven.getName() + " is a great name for an oven!");
         System.out.println("-------------------------------------------------------");
-        //System.out.print("\033\143");
+        
 
         System.out.println("\nQuestion 2: \nWhat temperature would you like to set your oven to? (Degrees Celcius)");
         oven.setTemp(scanner.nextInt());
         System.out.println("\nTurning the dial to set the temperature to " + oven.getTemp() + "* Celcius.\nBe careful, I'm going to get hot!!!");
         System.out.println("-------------------------------------------------------");
-        //System.out.print("\033\143");
+       
 
         System.out.println("\nQuestion 3: \nWhat are we cooking today?: ");
         scanner.nextLine();
@@ -30,12 +30,12 @@ public class Kitchen {
         System.out.println("\nOoooh I love " + oven.getFood() + "!\nAbout to put your " + oven.getFood() + " into the oven, I just have one more question for you.");
         System.out.println("-------------------------------------------------------");
         //System.out.print("\nIs that all? Would you like to cook anything else in the oven? ");
-       // System.out.print("\033\143");
+     
 
         System.out.println("\nQuestion 4: \nHow long does your " + oven.getFood() + " need to be cooked for? (minutes)");
         oven.setCookTime(scanner.nextInt());
         System.out.println("-------------------------------------------------------");
-        //System.out.print("\033\143");
+       
 
         //System.out.print("\nAbout to put your " + oven.getFood() + "into the oven, just one more question!");
 
